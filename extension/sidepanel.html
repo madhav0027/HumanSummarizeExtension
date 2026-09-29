@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ToolBox</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    
+    <header>
+        <div class=""logo>
+            AI ToolBox
+        </div>
+        <div class=""badge>
+            FREE
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <label>
+                Selected Text
+            </label>
+            <textarea 
+            id="selected-text" 
+            placeholder="Select text on Webpage">
+        </textarea>
+        </section>
+
+        <section class="actions">
+            <button data-action="humanize-rewrite">
+                ✨ Humanize Rewrite
+            </button>
+
+            <button data-action="professional-rewrite">
+                💼 Professional Rewrite
+            </button>
+
+            <button data-action="humanize-summary">
+                🧠 Humanize Summary
+            </button>
+
+            <button data-action="professional-summary">
+                📄 Professional Summary
+            </button>
+        </section>
+
+        <section>
+        <label>AI Result</label>
+
+        <div id="result" class="result">
+            Choose an action above.
+        </div>
+
+        <button id="copyButton" class="copy">
+            Copy result
+        </button>
+        </section>
+    </main>
+    <footer>
+        <span>20 free requests today</span>
+        <button id="upgrade">⭐ Premium</button>
+    </footer>
+
+    <script src="sidepanel.js"></script>
+    
+</body>
+</html>
