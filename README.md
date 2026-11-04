@@ -44,6 +44,3 @@ Supported actions:
 * humanize-summary
 * professional-summary
 
-🔒 Security
-
-Keep your API key private and never commit your .env file to GitHub.
