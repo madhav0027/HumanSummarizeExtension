@@ -2,3 +2,5 @@ server/node_modules
 server/.env
 .env
 server/.keys
+.env.dot
+node_modules
